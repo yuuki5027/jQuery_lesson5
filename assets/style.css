@@ -1,0 +1,65 @@
+.light-box {
+  margin: 80px 0;
+  text-align: center;
+}
+
+.lightbox-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.lightbox-img:not(:last-child) {
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.slick {
+  margin-bottom: 80px;
+  width: 100%;
+  height: 400px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pictures {
+  width: 400px;
+}
+
+.pictures img {
+  width: 350px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+
+.maximum-characters {
+  background-color: lightgray;
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+
+.iuput-design {
+  padding: 8px;
+}
+
+.name {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+
+.tooltipster {
+  text-align: center;
+  margin-bottom: 300px;
+}
