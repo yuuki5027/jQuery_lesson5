@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .light-box {
   margin: 80px 0;
   text-align: center;
@@ -18,7 +23,7 @@
   margin-bottom: 80px;
   width: 100%;
   height: 400px;
-  background-color: lightgray;
+  background-color: #f8f8f8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +46,7 @@
 }
 
 .maximum-characters {
-  background-color: lightgray;
+  background-color: #f8f8f8;
   height: 150px;
   text-align: center;
   padding-top: 20px;
@@ -61,5 +66,69 @@
 
 .tooltipster {
   text-align: center;
+  margin-bottom: 80px;
+}
+
+.superfish {
+  overflow: hidden;
+  width: 608px;
+  margin: auto;
+}
+
+.superfish .sf-menu {
   margin-bottom: 300px;
+}
+
+.waypoints {
+  background: #f8f8f8;
+  height: 1280px;
+  margin-bottom: 80px;
+}
+
+.waypoints ul,li {
+  list-style: none;
+}
+
+.waypoints header {
+  position: static;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.waypoints header.fix {
+  position: fixed;
+  top: 0;
+}
+
+.waypoints header ul {
+  display: flex;
+  justify-content: center;
+}
+
+.waypoints header li {
+  padding: 10px;
+  margin: 0 10px;
+  border-bottom: solid 3px #fff;
+}
+
+.waypoints header li.recent {
+  border-bottom: solid 3px #000;
+}
+
+.waypoints main {
+  padding-top: 100px;
+}
+
+.waypoints .box {
+  width: 640px;
+  margin: 0 auto 80px;
+}
+
+.svg_box {
+  padding: 80px 0;
+  background: #000561;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
